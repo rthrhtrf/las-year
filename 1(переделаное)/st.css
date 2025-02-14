@@ -1,0 +1,243 @@
+body {
+    font-family: 'Cormorant', serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #222324;
+}
+
+/* Стили для header */
+header {
+    background-color: #222324;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    border-bottom: 1px solid #ccc;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+header #user-actions img {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+/* Стили для hero-section */
+#hero-section {
+    background-color: #222324;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#hero-section button {
+    background-color: #b3ea4a;
+    color: #222324;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hero-section button img {
+    height: 15px;
+    margin-left: 10px;
+}
+
+/* Стили для collection-section */
+#collection-section {
+    background-color: #121212;
+    padding: 50px 180px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.collection-item {
+    background-color: #222324;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.collection-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.collection-item h3 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.collection-item p {
+    color: #98999e;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.collection-item button {
+    background-color: #b3ea4a;
+    color: #222324;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #fff;
+}
+
+#pagination img {
+    height: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Стили для new-artifacts */
+#new-artifacts {
+    background-color: #222324;
+    padding: 100px 180px;
+    color: #fff;
+    text-align: center;
+}
+
+#artifact-content {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+#artifact-content img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#artifact-text {
+    background-color: #b3ea4a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 50%;
+}
+
+#artifact-text h3 {
+    color: #152223;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#artifact-text p {
+    color: #082f01;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+#artifact-text button {
+    background: none;
+    border: none;
+    color: #152223;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#artifact-text button img {
+    height: 15px;
+    margin-left: 10px;
+}
+
+/* Стили для support-section */
+#support-section {
+    background-color: #121212;
+    padding: 100px 180px;
+    color: #fff;
+    text-align: center;
+}
+
+#support-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#support-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#support-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#support-section input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#support-section button {
+    background-color: #b3ea4a;
+    color: #222324;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Стили для footer */
+footer {
+    background-color: #222324;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 20px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+}
+
+/* Стили для copyright */
+#copyright {
+    background-color: #121212;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
